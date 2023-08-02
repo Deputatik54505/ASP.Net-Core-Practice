@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "JYO/gGtr0RZCmICy+FQwZ0qIQkpBHZ17UCcMeZF5e94=",
+  "Hash": "mvabuyf7W9suKap4puF5DbSe4yK+V1P9UK/p3q9S4Fo=",
   "Source": "ASPPractice",
   "BasePath": "_content/ASPPractice",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPPractice\\wwwroot",
+      "Source": "ASPPractice",
+      "ContentRoot": "C:\\Users\\plato\\ASPPractice\\wwwroot\\",
+      "BasePath": "_content/ASPPractice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\plato\\ASPPractice\\wwwroot\\zooMap.jpg",
+      "SourceId": "ASPPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\plato\\ASPPractice\\wwwroot\\",
+      "BasePath": "_content/ASPPractice",
+      "RelativePath": "zooMap.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\zooMap.jpg"
+    }
+  ]
 }

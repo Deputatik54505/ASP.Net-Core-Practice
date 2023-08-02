@@ -45,3 +45,6 @@ C:\Users\plato\ASPPractice\obj\Debug\net7.0\refint\ASPPractice.dll
 C:\Users\plato\ASPPractice\obj\Debug\net7.0\ASPPractice.pdb
 C:\Users\plato\ASPPractice\obj\Debug\net7.0\ASPPractice.genruntimeconfig.cache
 C:\Users\plato\ASPPractice\obj\Debug\net7.0\ref\ASPPractice.dll
+C:\Users\plato\ASPPractice\obj\Debug\net7.0\ASPPractice.RazorAssemblyInfo.cache
+C:\Users\plato\ASPPractice\obj\Debug\net7.0\ASPPractice.RazorAssemblyInfo.cs
+C:\Users\plato\ASPPractice\bin\Debug\net7.0\ASPPractice.staticwebassets.runtime.json

@@ -14,9 +14,12 @@ builder.Services.AddScoped<ICellRepository, CellRepository>();
 builder.Services.AddScoped<IMealRepository, MealRepository>();
 builder.Services.AddScoped<IZookeeperRepository,ZookeeperRepository>();
 
+builder.Services.AddRazorPages();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
@@ -30,7 +33,10 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseStaticFiles();
+
 
 app.MapControllers();
+app.MapRazorPages();
 
 app.Run();
