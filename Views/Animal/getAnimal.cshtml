@@ -1,4 +1,24 @@
-﻿@{
-	
+﻿@model ASPPractice.Model.Dto.AnimalDto
+
+@{
+
 }
-<h1>Animal</h1>
+
+<div>
+	<h4>@Html.DisplayFor(animal => animal.AnimalName)</h4>
+	<hr />
+	<dl class="row">
+		<dt class = "col-sm-2">
+			@Html.DisplayNameFor(animal => animal.CellId)
+		</dt>
+		<dd class = "col-sm-10">
+			@Html.DisplayFor(animal => animal.CellId)
+		</dd>
+		<dt class = "col-sm-2">
+			@Html.DisplayNameFor(animal => animal.MainMealId)
+		</dt>
+		<dd class = "col-sm-10">
+			@Html.DisplayFor(animal => animal.MainMealId)
+		</dd>
+	</dl>
+</div>

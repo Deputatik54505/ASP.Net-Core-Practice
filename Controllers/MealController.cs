@@ -63,7 +63,7 @@ namespace ASPPractice.Controllers
             var dto = _mapper.Map<MealDto>(_repository.GetMeal(id).Result);
             if (dto == null)
                 return NotFound();
-            return Ok(dto);
+            return View();
         }
 
         [HttpPut]

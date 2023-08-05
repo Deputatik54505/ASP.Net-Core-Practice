@@ -2,9 +2,7 @@
 using ASPPractice.Model.models;
 using ASPPractice.Model.repositories;
 using AutoMapper;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace ASPPractice.Controllers;
 

@@ -48,7 +48,7 @@ namespace ASPPractice.Controllers
 			if (!ModelState.IsValid)
 				return BadRequest(ModelState);
 
-			return Ok(animal);
+			return View(animal);
 		}
 
 
