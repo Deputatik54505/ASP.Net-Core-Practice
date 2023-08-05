@@ -1,8 +1,7 @@
-﻿using Model.models;
+﻿using ASPPractice.Model.models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal;
 
-namespace Model.context;
+namespace ASPPractice.Model.context;
 
 
 public sealed class ApplicationContext : DbContext

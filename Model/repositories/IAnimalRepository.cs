@@ -1,13 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Model.context;
-using Model.models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ASPPractice.Model.models;
 
-namespace Model.repositories;
+namespace ASPPractice.Model.repositories;
 
 public interface IAnimalRepository
 { 

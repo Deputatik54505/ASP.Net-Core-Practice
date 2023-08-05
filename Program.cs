@@ -1,5 +1,5 @@
-using Model.context;
-using Model.repositories;
+using ASPPractice.Model.context;
+using ASPPractice.Model.repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

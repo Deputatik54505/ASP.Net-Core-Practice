@@ -1,6 +1,6 @@
-﻿using Model.models;
+﻿using ASPPractice.Model.models;
 
-namespace Model.repositories;
+namespace ASPPractice.Model.repositories;
 
 public interface ICellRepository
 {

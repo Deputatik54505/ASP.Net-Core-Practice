@@ -1,4 +1,4 @@
-﻿namespace Model.models;
+﻿namespace ASPPractice.Model.models;
 /// <summary>
 /// Entity which represent animal
 /// </summary>

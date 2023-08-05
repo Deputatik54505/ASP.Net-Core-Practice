@@ -1,9 +1,8 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using ASPPractice.Model.context;
+using ASPPractice.Model.models;
 using Microsoft.EntityFrameworkCore;
-using Model.context;
-using Model.models;
 
-namespace Model.repositories;
+namespace ASPPractice.Model.repositories;
 
 public class ZookeeperRepository : IZookeeperRepository
 {

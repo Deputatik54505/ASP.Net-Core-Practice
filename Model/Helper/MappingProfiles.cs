@@ -1,8 +1,8 @@
-﻿using AutoMapper;
-using Model.Dto;
-using Model.models;
+﻿using ASPPractice.Model.Dto;
+using ASPPractice.Model.models;
+using AutoMapper;
 
-namespace Model.Helper
+namespace ASPPractice.Model.Helper
 {
     /// <summary>
     /// Mapper

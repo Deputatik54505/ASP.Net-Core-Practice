@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Model.context;
-using Model.models;
+﻿using ASPPractice.Model.context;
+using ASPPractice.Model.models;
+using Microsoft.EntityFrameworkCore;
 
-namespace Model.repositories;
+namespace ASPPractice.Model.repositories;
 
 public class MealRepository : IMealRepository
 {

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Model.models;
+﻿using ASPPractice.Model.models;
 
-namespace Model.repositories;
+namespace ASPPractice.Model.repositories;
 
 public interface IMealRepository
 {
