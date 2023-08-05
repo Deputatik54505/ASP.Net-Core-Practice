@@ -1,10 +1,10 @@
-﻿using AutoMapper;
+﻿using ASPPractice.Model.Dto;
+using ASPPractice.Model.models;
+using ASPPractice.Model.repositories;
+using AutoMapper;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Model.Dto;
-using Model.models;
-using Model.repositories;
 
 namespace ASPPractice.Controllers;
 

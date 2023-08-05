@@ -1,4 +1,4 @@
-﻿namespace Model.Dto;
+﻿namespace ASPPractice.Model.Dto;
 
 /// <summary>
 /// DTO which encapsulates data of cell for data representation

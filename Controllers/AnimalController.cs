@@ -1,11 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Diagnostics;
-using Model.Dto;
-using Model.models;
-using Model.repositories;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
+using ASPPractice.Model.Dto;
+using ASPPractice.Model.models;
+using ASPPractice.Model.repositories;
 
 namespace ASPPractice.Controllers
 {
@@ -69,7 +66,7 @@ namespace ASPPractice.Controllers
 		}
 
 		[HttpPut]
-		[Route("updateAnimal/{id}")]
+		[Route("updateAnimal/{id:int}")]
 		[ProducesResponseType(200)]
 		[ProducesResponseType(400)]
 		public IActionResult UpdateAnimal(int id, [FromBody] AnimalDto animalDto)
@@ -81,7 +78,7 @@ namespace ASPPractice.Controllers
 		}
 
 		[HttpDelete]
-		[Route("{id}/delete")]
+		[Route("{id:int}/delete")]
 		[ProducesResponseType(204)]
 		[ProducesResponseType(404)]
 		[ProducesResponseType(400)]
