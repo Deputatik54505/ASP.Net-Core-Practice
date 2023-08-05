@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\plato\ASPPractice
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/plato/ASPPractice/Pages/Animal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/plato/ASPPractice/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
