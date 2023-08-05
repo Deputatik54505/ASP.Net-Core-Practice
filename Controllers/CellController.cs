@@ -44,7 +44,7 @@ public class CellController : Controller
         {
             return NotFound();
         }
-        return Ok(cell);
+        return View();
     }
 
     [HttpDelete]
