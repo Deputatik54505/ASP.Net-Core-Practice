@@ -1,5 +1,5 @@
-using Model.context;
-using Model.repositories;
+using ASPPractice.Model.context;
+using ASPPractice.Model.repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +35,9 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseStaticFiles();
 
+app.MapControllerRoute(
+	name: "default",
+	pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllers();
 app.MapRazorPages();

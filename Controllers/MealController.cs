@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using ASPPractice.Model.Dto;
+using ASPPractice.Model.models;
+using ASPPractice.Model.repositories;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Model.repositories;
-using Model.Dto;
-using Model.models;
 using NLog.LayoutRenderers;
 
 namespace ASPPractice.Controllers
